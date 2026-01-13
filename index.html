@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- Open Graph / Social -->
+		<meta property="og:title" content="Lyba Mughees — Cloud Automation Developer">
+		<meta property="og:description" content="Cloud Automation Developer cture automation, migrations, scripting, and performance optimization.">
+		<meta name="twitter:card" content="summary_large_image">
+		<title>Lyba Mughees — Portfolio</title>
+		<meta name="description" content="Portfolio of Lyba Mughees — Cloud Automation Developer, projects, experience and contact." />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<a class="skip-link" href="#main">Skip to content</a>
+		<header class="site-header">
+			<div class="container header-inner">
+				<a class="brand" href="#home">Lyba Mughees</a>
+				<button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+				<button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+				<nav class="site-nav">
+					<a href="#about">About</a>
+					<a href="#projects">Projects</a>
+					
+					<a href="#contact">Contact</a>
+				</nav>
+				<div class="header-right">
+					<a class="social" href="https://www.linkedin.com/in/lyba-mughees/" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+					<a class="social" href="https://github.com/lybamughees" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+					<a class="social" href="assets/resume.pdf" target="_blank" rel="noopener">Resume</a>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<section id="home" class="hero">
+				<!-- Decorative animated blobs and particle canvas (visual enhancer) -->
+				<canvas id="particleCanvas" aria-hidden="true"></canvas>
+				<svg class="hero-blob" aria-hidden="true" viewBox="0 0 800 400" preserveAspectRatio="xMidYMid slice">
+					<defs>
+						<linearGradient id="g1" x1="0%" x2="100%">
+							<stop offset="0%" stop-color="#ff9ab3" />
+							<stop offset="100%" stop-color="#ffd6c2" />
+						</linearGradient>
+					</defs>
+					<g fill="url(#g1)" opacity="0.18">
+						<path class="blob blob-1" d="M120,200 C80,120 40,80 120,60 C220,20 340,80 420,100 C500,120 560,180 520,240 C480,300 340,340 220,320 C180,312 150,280 120,200Z"/>
+						<path class="blob blob-2" d="M620,220 C580,140 540,100 620,80 C720,40 840,100 920,120 C1000,140 1060,200 1020,260 C980,320 840,360 720,340 C680,332 650,300 620,220Z"/>
+					</g>
+				</svg>
+				<div class="container" data-parallax="0.04">
+					<h1>Hi, I'm Lyba Mughees</h1>
+					<p class="lead">Cloud Automation Developer @ Bell Canada</p>
+					<p>
+						<a class="btn btn-projects" href="#projects">See my work</a>
+		
+						<a class="btn btn-contact" href="#contact">Get in touch</a>
+					</p>
+				</div>
+			</section>
+
+
+			<section id="about" class="section alt">
+				<div class="container">
+					<h2>About Me</h2>
+					<p class="degree">BEng Software Engineering</p>
+					<p>Cloud Automation Developer with experience in infrastructure automation, VMware-to-OpenStack migrations, scripting, and performance optimization. Proven ability to lead large-scale cloud transformations, reduce operational costs, and deliver scalable self-service automation solutions.</p>
+
+				
+				</div>
+			</section>
+
+			<section id="experience" class="section experience">
+				<div class="container">
+					<h2>Experience</h2>
+					<div class="timeline">
+						<div class="timeline-item card">
+							<h3>BELL CANADA — Cloud Automation Developer I <span class="muted">APR 2025 - PRESENT</span></h3>
+							<p>Led migration planning for VMware → OpenStack (≈610 servers), recovered hosts via VM optimizations, and delivered multimillion-dollar savings. Produced runbooks and support playbooks.</p>
+							<button class="toggle-details" type="button" aria-expanded="false">Details</button>
+							<div class="extra-details hidden">
+								<ul>
+									<li>Acted as Project Manager for the VMware → OpenStack migration, coordinating schedules, validation, and execution for 610 servers; reduced footprint by 50+ hosts.</li>
+									<li>Delivered $8M in cost savings through migration efficiencies and optimization.</li>
+									<li>Resolved 17 post‑migration incidents with zero customer-impacting issues.</li>
+									<li>Analyzed ~2,500 VMs, recovered 120 hosts and generated $161,000 in savings.</li>
+									<li>Provided tenant support, coordinated cutovers, validated tasks, and ensured multi-team readiness.</li>
+									<li>Authored documentation, playbooks, and technical guides to support cloud adoption.</li>
+									<li>Managed after-hours migration schedules and cross-team alignment to enable successful execution.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="timeline-item card">
+							<h3>BELL CANADA — Software Developer <span class="muted">MAY 2024 - APR 2025</span></h3>
+							<p>Built automation with PowerShell for migration workflows; implemented cost-optimization tooling and license automation.</p>
+							<button class="toggle-details" type="button" aria-expanded="false">Details</button>
+							<div class="extra-details hidden">
+								<ul>
+									<li>Automated migration processes using PowerShell to streamline operational workflows.</li>
+									<li>Led VM cost‑optimization initiatives resulting in significant resource and cost savings.</li>
+									<li>Built automation tools for license assignment and audit maintenance across enterprise environments.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="timeline-item card">
+							<h3>BELL CANADA — Software Development Intern <span class="muted">SUMMER 2022 / SUMMER 2023</span></h3>
+							<p>Redesigned internal portals, added SQL logging for audits, and improved internal tooling using C# and JavaScript.</p>
+							<button class="toggle-details" type="button" aria-expanded="false">Details</button>
+							<div class="extra-details hidden">
+								<ul>
+									<li>Redesigned the employee hub portal to improve UI/UX and functionality.</li>
+									<li>Implemented SQL logging to enhance auditability of employee directory updates.</li>
+									<li>Built tools for internal event publishing and enhanced systems using C#, ASP.NET, JavaScript, and SQL.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="timeline-item card">
+							<h3>ONTARIO POWER GENERATION — Maintenance Strategies Coop <span class="muted">SUMMER 2021 - WINTER 2021</span></h3>
+							<p>Automated maintenance reporting with VBA and SSMS; built Power BI models and a Power App for station records.</p>
+							<button class="toggle-details" type="button" aria-expanded="false">Details</button>
+							<div class="extra-details hidden">
+								<ul>
+									<li>Developed VBA code to monitor and track vending machine purchases.</li>
+									<li>Created Power BI models for departmental spending visualizations.</li>
+									<li>Automated maintenance backlog tasks using SSMS and VBA.</li>
+									<li>Developed a Power App with Power FX for station condition record maintenance.</li>
+									<li>Ensured compliance with WANO standards.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section">
+				<div class="container">
+					<h2>Skills</h2>
+					<div class="skills-grid">
+						<div class="skill-group">
+							<h4>Programming Languages</h4>
+							<div class="skill-pills">
+								<span class="skill-pill">C++</span>
+								<span class="skill-pill">C</span>
+								<span class="skill-pill">Java</span>
+								<span class="skill-pill">PHP</span>
+								<span class="skill-pill">HTML</span>
+								<span class="skill-pill">JavaScript</span>
+								<span class="skill-pill">CSS</span>
+								<span class="skill-pill">Python</span>
+								<span class="skill-pill">PowerShell</span>
+								<span class="skill-pill">Bash</span>
+							</div>
+						</div>
+						<div class="skill-group">
+							<h4>Data & Analysis</h4>
+							<div class="skill-pills">
+								<span class="skill-pill">SQL</span>
+							</div>
+						</div>
+						<div class="skill-group">
+							<h4>Machine Learning / AI</h4>
+							<div class="skill-pills">
+								<span class="skill-pill">Pandas</span>
+								<span class="skill-pill">NumPy</span>
+								<span class="skill-pill">Scikit-Learn</span>
+								<span class="skill-pill">SciPy</span>
+							</div>
+						</div>
+						<div class="skill-group">
+							<h4>Cloud & Virtualization</h4>
+							<div class="skill-pills">
+								<span class="skill-pill">VMware</span>
+							</div>
+						</div>
+						<div class="skill-group">
+							<h4>Tooling</h4>
+							<div class="skill-pills">
+								<span class="skill-pill">Git</span>
+								<span class="skill-pill">SQL</span>
+								<span class="skill-pill">Power BI</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="projects" class="section">
+				<div class="container">
+					<h2>Projects</h2>
+					<div class="grid projects-grid">
+						<article class="card project-card capstone-card">
+							<div class="project-media capstone-media" aria-hidden="false">
+								<picture>
+	<img
+		src="assets/capstone.svg"
+		alt="Smart Medicine Cabinet"
+		loading="lazy"
+		width="1200"
+		height="675"
+		style="width:100%;height:100%;object-fit:cover;"
+	/
+	>
+								</picture>
+							</div>
+							<div class="card-body">
+								<h3>Smart Medicine Cabinet — Capstone Project</h3>
+								<p>The Smart Medicine Cabinet automates medication management using a Raspberry Pi, touchscreen, mechanical dispensers, and sensors. Built on the MagicMirror framework, it provides reminders, controlled dispensing, and remote caregiver monitoring to improve adherence and independence.</p>
+								<ul>
+									<li><b>Roles:</b> Designed the Smart Medicine Cabinet’s user interface using the MagicMirror Framework to deliver an intuitive, patient-friendly experience. Integrated the interface with the caretaker portal for real-time updates and remote oversight, and developed a Python-based gesture recognition script to verify medication intake—improving adherence, safety, and user independence.</li>
+									<li><b>Tech:</b> Raspberry Pi, MagicMirror framework, IoT sensors, cloud sync</li>
+									<li><b>Awards:</b> 1st Place — Ontario Tech Capstone Exhibition</li>
+								</ul>
+								
+								<p class="card-links"><a href="#" class="video-link" id="openVideo">Video</a> · <a href="https://github.com/lybamughees/magicmirror" target="_blank" rel="noopener">Code (GitHub)</a></p>
+
+							<!-- Video modal (hidden by default) -->
+							<div id="videoModal" class="video-modal hidden" aria-hidden="true">
+								<div class="modal-content" role="dialog" aria-modal="true" aria-label="Project video">
+									<button class="modal-close" id="closeVideo" aria-label="Close video">×</button>
+									<div class="video-wrapper">
+										<iframe id="videoIframe" src="https://drive.google.com/file/d/1gzWmbOUJzlyxvX2xp0tcs60RNL_Kp4K0/preview" allow="autoplay; encrypted-media" allowfullscreen title="Smart Medicine Cabinet video"></iframe>
+									</div>
+								</div>
+							</div>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+
+
+
+			<section id="contact" class="section">
+				<div class="container">
+					<h2>Contact</h2>
+					<p>If you'd like to work together, send a message:</p>
+					<form id="contactForm" class="contact-form" action="https://formspree.io/f/xdaaoldj" method="POST">
+						<input type="hidden" name="_subject" value="Portfolio contact">
+						<div id="formStatus" class="form-status hidden" role="status" aria-live="polite" tabindex="-1">
+							<div class="form-status-message" aria-hidden="false"></div>
+							<button type="button" class="form-status-close" aria-label="Dismiss message">×</button>
+						</div>
+						<label>
+							Name
+							<input type="text" name="name" required>
+						</label>
+						<label>
+							Email
+							<input type="email" name="email" required>
+						</label>
+						<label>
+							Message
+							<textarea name="message" rows="5" required></textarea>
+						</label>
+						<div>
+							<button class="btn" type="submit">Send</button>
+						</div>
+					</form>
+				</div>
+			</section>
+
+		</main>
+
+		<footer class="site-footer">
+			<div class="container">
+				<p>© <span id="year"></span> Lyba Mughees.</p>
+			</div>
+		</footer>
+
+		<script src="script.js"></script>
+	</body>
+</html>
+

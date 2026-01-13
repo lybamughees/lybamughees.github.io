@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" preserveAspectRatio="xMidYMid meet">
+  <rect width="1200" height="700" fill="#fdeef2"/>
+  <g font-family="Poppins, Arial, sans-serif" fill="#e07b9e">
+    <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" font-size="36">Project One Screenshot</text>
+  </g>
+</svg>
