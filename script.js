@@ -4,6 +4,26 @@ document.addEventListener('DOMContentLoaded',()=>{
   const nav = document.querySelector('.site-nav');
   toggle?.addEventListener('click',()=>nav.classList.toggle('show'));
 
+  const progress = document.getElementById('scrollProgress');
+const sections = document.querySelectorAll('section[id]');
+const navLinks = document.querySelectorAll('.site-nav a');
+
+window.addEventListener('scroll', () => {
+  const scrolled = window.scrollY;
+  const height = document.body.scrollHeight - window.innerHeight;
+  progress.style.width = `${(scrolled / height) * 100}%`;
+
+  sections.forEach(sec => {
+    const top = sec.offsetTop - 120;
+    const bottom = top + sec.offsetHeight;
+    if (scrolled >= top && scrolled < bottom) {
+      navLinks.forEach(a => a.classList.remove('active'));
+      document.querySelector(`.site-nav a[href="#${sec.id}"]`)?.classList.add('active');
+    }
+  });
+});
+
+
   // Theme toggle (persist preference)
   const themeToggle = document.getElementById('themeToggle');
   const root = document.documentElement;
