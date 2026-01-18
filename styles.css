@@ -10,6 +10,16 @@
   --radius:12px;
 }
 
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 1rem;
+  box-shadow: 0 4px 15px rgba(255,111,163,0.2);
+}
+
+
 /* Dark theme overrides */
 :root[data-theme="dark"]{
   --bg:#0c0b10;
